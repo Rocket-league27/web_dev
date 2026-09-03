@@ -59,7 +59,7 @@
     <dt>Computing</dt> 
     <dd>A subject where we learn about computers, coding, websites, and technology.</dd> 
   
-    <dt>PE</dt> 
+    <dt>sports</dt> 
     <dd>A subject where we play different sports and learn about fitness and teamwork.</dd> 
   </dl> 
   
@@ -94,7 +94,7 @@
       <td>Wednesday</td> 
       <td>Science</td> 
       <td>Computing</td> 
-      <td>PE</td> 
+      <td>sports</td> 
       <td>French</td> 
     </tr> 
   
@@ -110,7 +110,7 @@
       <td>Friday</td> 
       <td>Computing</td> 
       <td>Geography</td> 
-      <td>PE</td> 
+      <td>sports</td> 
       <td>Art</td> 
     </tr> 
   </table> 
