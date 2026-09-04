@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Media Adventure</title>
+</head>
+
+<body>
+
+  <center>
+
+    <h1>My Media Adventure Webpage</h1>
+
+    <p>
+      Welcome to my exciting media adventure! Here, you can explore amazing places,
+      listen to music, watch a video, and enjoy an interactive game.
+    </p>
+
+    <hr>
+
+    <h2>Underwater Adventure Gallery</h2>
+
+    <p>
+      These images show the amazing creatures and beautiful places I discovered
+      during my underwater adventure.
+    </p>
+
+    <img src="ocean.png" alt="A beautiful ocean" width="300" height="300">
+    <img src="dolphin.png" alt="A dolphin swimming in the ocean" width="300" height="300">
+    <img src="fish.png" alt="Colourful fish underwater" width="300" height="300">
+
+    <hr>
+
+    <h2>Ocean Beats Party</h2>
+
+    <p>
+      Listen to some relaxing music while enjoying an underwater video.
+    </p>
+
+    <audio controls loop>
+      <source src="oceanmusic.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+
+    <br><br>
+
+    <video width="500" height="350" controls poster="oceanposter.png" loop>
+      <source src="oceanvideo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <hr>
+
+    <h2>Adventure Game Zone</h2>
+
+    <p>
+      Play this fun Scratch game and see if you can complete the adventure!
+    </p>
+
+    <iframe 
+      src="https://scratch.mit.edu/projects/60917032/embed"
+      allowtransparency="true"
+      width="500"
+      height="400"
+      frameborder="0"
+      scrolling="no"
+      allowfullscreen>
+    </iframe>
+
+    <hr>
+
+    <h2>Adventure Complete!</h2>
+
+    <p>
+      I used image, audio, video, and iframe tags to create my own interactive
+      media adventure webpage.
+    </p>
+
+  </center>
+
+</body>
+
+</html>
