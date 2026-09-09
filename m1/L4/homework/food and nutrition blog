@@ -1,0 +1,179 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Food and Nutrition Blog</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Healthy Bites: Food and Nutrition Blog</h1>
+
+    <nav>
+      <a href="#healthy-plate">Healthy Plate</a> |
+      <a href="#nutrition-tips">Nutrition Tips</a> |
+      <a href="#video">Watch Video</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="healthy-plate">
+      <h2>Making Better Food Choices</h2>
+
+      <article>
+        <h3>The Benefits of Healthy Eating</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=300&h=200&fit=crop"
+            alt="A healthy selection of fruits and vegetables"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            Fresh and colourful foods can make meals both healthy and enjoyable.
+          </figcaption>
+        </figure>
+
+        <p>
+          Eating a variety of foods helps our bodies get the nutrients they need for everyday life.
+          Fruits, vegetables, grains, and protein can all be included as part of a balanced diet.
+        </p>
+
+        <p>
+          Find more information about healthy eating here:
+          <a href="https://www.myplate.gov/" target="_blank">
+            MyPlate Nutrition Guide
+          </a>
+        </p>
+      </article>
+
+      <article>
+        <h3>Choosing Better Snacks</h3>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=300&h=200&fit=crop"
+            alt="A variety of fresh and healthy foods"
+            width="300"
+            height="200"
+          >
+          <figcaption>
+            Fresh fruit, yoghurt, and other nutritious foods can make great snacks.
+          </figcaption>
+        </figure>
+
+        <p>
+          Choosing nutritious snacks can help keep us energised during the day. Fresh fruit,
+          yoghurt, nuts, and homemade snacks are some options to enjoy between meals.
+        </p>
+
+        <p>
+          Explore more information about nutrition here:
+          <a href="https://www.who.int/news-room/fact-sheets/detail/healthy-diet" target="_blank">
+            WHO Healthy Diet Guide
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <section id="nutrition-tips">
+      <h2>Simple Nutrition Tips</h2>
+
+      <article>
+        <h3>Stay Hydrated</h3>
+
+        <p>
+          Drinking enough water is important for staying hydrated throughout the day. Keeping
+          a water bottle nearby can be a simple way to remember to drink regularly.
+        </p>
+      </article>
+
+      <article>
+        <h3>Eat a Variety of Foods</h3>
+
+        <p>
+          Eating different types of food gives our bodies a range of nutrients. Try including
+          different fruits, vegetables, grains, and protein foods in your meals.
+        </p>
+
+        <p>
+          Read more about healthy food choices here:
+          <a href="https://www.nutrition.gov/" target="_blank">
+            Nutrition.gov
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <aside>
+      <h2>Quick Food Fact</h2>
+
+      <div>
+        <p>
+          Eating a variety of colourful foods is a simple way to add different nutrients to your
+          meals and make your plate more interesting.
+        </p>
+
+        <p>
+          Share your favourite healthy recipe here:
+          <a href="https://forms.gle/" target="_blank">
+            Recipe Submission Form
+          </a>
+        </p>
+      </div>
+    </aside>
+
+    <section id="video">
+      <h2>Watch and Learn About Food</h2>
+
+      <p>
+        Watch this video to learn more about healthy eating and how food choices can support
+        an active lifestyle.
+      </p>
+
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xyQY8a-ng6g"
+        title="Food and Nutrition Video"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id="contact">
+      <h2>Contact the Healthy Bites Team</h2>
+
+      <p>
+        Have a recipe, food idea, or useful nutrition tip to share? Send it to us.
+      </p>
+
+      <p>
+        Email:
+        <a href="mailto:nutritionblog@example.com">
+          nutritionblog@example.com
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Healthy Bites Food and Nutrition Blog. All rights reserved.</p>
+
+    <p>
+      Learn more about healthy habits:
+      <a href="https://www.nutrition.gov/" target="_blank">
+        Nutrition.gov
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
+```

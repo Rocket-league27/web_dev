@@ -65,7 +65,7 @@
   
   <h2>My Dream Timetable</h2> 
   
-  <table border="3"> 
+  <table border="2"> 
     <tr> 
       <th>Day</th> 
       <th>Period 1</th> 
