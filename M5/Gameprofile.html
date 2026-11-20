@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Game Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: aliceblue;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 { color: navy; }
+    button {
+      background: navy;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    div {
+      border: 1px solid navy;
+      width: 280px;
+      margin: 6px auto;
+      padding: 8px 12px;
+      text-align: left;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Game Profile</h1>
+  <button onclick="showProfile()">Show Profile</button>
+
+  <div>Name: <span id="name"></span></div>
+  <div>Score: <span id="score"></span></div>
+  <div>Top Score: <span id="topScore"></span></div>
+  <div>Rank: <span id="rank"></span></div>
+  <div>Stars: <span id="stars"></span></div>
+  <div>Team Name: <span id="team"></span></div>
+
+  <script>
+
+    function showProfile() {
+
+      // Variables
+      let name      = "Akshat";
+      let myScore   = 67;
+      let highScore = 100;
+      let team;
+
+      // TODO: Add comparison operator to check if myScore is greater than highScore.
+      let isTopScore = (myScore > highScore);
+
+      // if / else — Rank
+      // TODO:
+      // Use if / else to assign a rank based on myScore. 
+      // If myScore is 80 or higher, rank is "Gold". 
+      // If myScore is 50 or higher, rank is "Silver". 
+      // Otherwise, rank is "Bronze".
+      let rank;
+if (myScore >=80) {
+    rank = "gold"
+
+}
+    else if (myScore>=50) {
+    rank = "silver"
+}
+    else {
+        rank = "bronze"
+    }
+
+
+      // TODO: Use a while loop to create a string of 5 stars. Each star is represented by an asterisk (*).
+      let stars = "";
+      let count = 0;
+      while (count < 5) {
+        stars += "*";
+        count++;
+      }
+
+      // Display name, score, topScore, rank, stars, and team in the HTML page.
+      document.getElementById("name").innerHTML      = name;
+      document.getElementById("score").innerHTML    = myScore;
+      document.getElementById("topScore").innerHTML = highScore;
+      document.getElementById("rank").innerHTML     = rank;
+      document.getElementById("stars").innerHTML    = stars;
+      document.getElementById("team").innerHTML     = team;
+
+    }
+
+  </script>
+</body>
+</html>
